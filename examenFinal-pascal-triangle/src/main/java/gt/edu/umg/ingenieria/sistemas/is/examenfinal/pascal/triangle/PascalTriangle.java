@@ -3,8 +3,11 @@ package gt.edu.umg.ingenieria.sistemas.is.examenfinal.pascal.triangle;
 import java.util.Arrays;
 
 public class PascalTriangle {
+    
 
-    public String build(int levels) {
+    public static String build(int levels) {
+        
+        
         StringBuilder stringBuilder = new StringBuilder();
         
         if (levels <= 0) {            
